@@ -1,0 +1,330 @@
+body {
+    font-family: "Apple Garamond", serif;
+    background: repeating-linear-gradient(90deg,
+            #382D29,
+            #382D29 10px,
+            #463933 10px,
+            #463933 20px);
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Beautiful Maples", cursive;
+    text-align: center;
+    color: #FFB7D5;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: "Beautiful Maples", cursive;
+    text-align: left;
+    color: #3B2A22;
+    font-size: 32px;
+    margin: 0;
+}
+
+p,
+h3 {
+    font-family: "Arial Narrow", cursive;
+}
+
+h4 {
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+h5 {
+    font-family: "Beautiful Maples", cursive;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+li,
+td,
+th,
+label {
+    font-family: "Arial Narrow", cursive;
+}
+
+/* --- Section Profil & Bio --- */
+.profil {
+    width: 600px;
+    max-width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.profil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 8px solid #FFB7D5;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.depart {
+    background-color: #FFF9B7;
+    color: #CE1669;
+    text-align: center;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.bio {
+    background-color: #FFB7D5;
+    color: #3B2A22;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #DD85AA;
+    text-align: center;
+    font-size: 23px;
+}
+
+.bio a {
+    color: #CE1669;
+}
+
+/* --- Edu & Skills --- */
+.edu-skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+.edu-column,
+.skills-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-box {
+    background-color: #FFF9B7;
+    border: 2px solid #F4EC8E;
+    border-radius: 12px;
+    padding: 8px;
+    text-align: center;
+}
+
+.title-box h1 {
+    margin: 0;
+    font-size: 20px;
+    color: #3B2A22;
+}
+
+.content-box {
+    background-color: #FFB7D5;
+    border: 2px solid #DD85AA;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: left;
+    height: 100%;
+}
+
+.content-box ul {
+    margin: 0;
+    padding-left: 18px;
+    color: #3B2A22;
+}
+
+.content-box li {
+    margin-bottom: 6px;
+}
+
+/* --- Experience & Achievements --- */
+.experience,
+.achievements {
+    width: 100%;
+    max-width: 650px;
+    margin: 30px auto 0;
+    box-sizing: border-box;
+}
+
+.experience-title,
+.achievements-title {
+    color: #FFB7D5;
+    font-family: "Patrick Hand", "Beautiful Maples", cursive;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.experience-box,
+.achievements-box {
+    width: 100%;
+    background-color: #FFF9B7;
+    color: #3B2A22;
+    padding: 25px;
+    border: 3px solid #F4EC8E;
+    border-radius: 18px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.experience-item {
+    margin-bottom: 22px;
+}
+
+.experience-item:last-child {
+    margin-bottom: 0;
+}
+
+.experience-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3B2A22;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.experience-item p {
+    font-size: 16px;
+    color: #5A4438;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.experience-item ul,
+.achievements-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.experience-item li,
+.achievements-box li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3B2A22;
+}
+
+.achievements-box li {
+    margin-bottom: 10px;
+}
+
+.achievements-box li:last-child {
+    margin-bottom: 0;
+}
+
+/* --- TO-DO LIST STYLE --- */
+.todo-container {
+    width: 100%;
+    max-width: 650px;
+    margin: 40px auto 0;
+    background-color: #FFF9B7;
+    border: 3px solid #F4EC8E;
+    border-radius: 18px;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.todo-container .todo-subtitle-top {
+    font-size: 20px;
+    color: #3B2A22;
+    margin: 0 0 5px 0;
+    text-align: center;
+    font-family: "Beautiful Maples", cursive;
+}
+
+.todo-container .todo-title {
+    font-size: 42px;
+    color: #3B2A22;
+    margin: 5px 0 10px 0;
+    text-align: center;
+    font-family: "Beautiful Maples", cursive;
+}
+
+.todo-container .todo-desc {
+    color: #5A4438;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    font-family: "Arial Narrow", cursive;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid #3B2A22;
+    border-radius: 12px;
+    outline: none;
+    font-size: 16px;
+    background: #fff;
+    color: #3B2A22;
+    font-family: "Arial Narrow", cursive;
+}
+
+.input-group button {
+    padding: 10px 20px;
+    background: #3B2A22;
+    color: #FFB7D5;
+    border: 2px solid #3B2A22;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Arial Narrow", cursive;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border: 2px solid #3B2A22;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.task-item span {
+    cursor: pointer;
+    font-size: 18px;
+    color: #3B2A22;
+    text-align: left;
+    word-break: break-word;
+    font-family: "Arial Narrow", cursive;
+}
+
+/* Class untuk efek coret (Bonus opsional) */
+.task-item.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete-btn {
+    background: #FFB7D5;
+    border: 2px solid #3B2A22;
+    border-radius: 8px;
+    padding: 5px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #3B2A22;
+    font-family: "Arial Narrow", cursive;
+}
